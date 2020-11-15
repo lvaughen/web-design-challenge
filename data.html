@@ -12,6 +12,41 @@
 </head>
 
 <body>
+
+       <!--nav bar-->
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><b>Main</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="L_temp.html">Lat vs. Max Temp</a>
+                        <a class="dropdown-item" href="l_humid.html">Lat vs. Humidity</a>
+                        <a class="dropdown-item" href="l_cloud.html">Lat vs. Cloudiness</a>
+                        <a class="dropdown-item" href="l_wind.html">Lat vs. Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="compar.html">Comparison </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!---  Data table results-->
     <div class="tr">
 
         <div class="col-12">
@@ -30,7 +65,7 @@
         </div>
 
         <!--Bootstrap sources for table: https://getbootstrap.com/docs/4.0/content/tables/ -->
-        <table class="table table-striped">
+        <table class="table table-striped col-sm-12 col-md-6">
             <thead>
                 <tr>
                     <th title="Field #1">City_ID</th>
