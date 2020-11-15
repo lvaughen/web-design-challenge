@@ -1,0 +1,31 @@
+h1, h2 {
+    font-size: 25px;
+    color: darkcyan;
+    padding-top: 20px;
+    font-weight: 900;
+}
+
+h3 {
+font-size: 15px;
+color: darkcyan;
+text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+img:hover {border:solid 5px darkcyan;}  
+.white {color:white;}
+.black {color:black;}
+.imageborder {border: 2px; border-color: darkcyan}
+.navbar-light .navbar-brand {background-color: darkcyan; color: white;}
+
+.box {
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #999;
+}
+
